@@ -73,7 +73,7 @@ export type Experience = {
   company: string;
   role: string;
   period: string;
-  description: string | string[];
+  description: string[];
 };
 
 export const experience: Experience[] = [
